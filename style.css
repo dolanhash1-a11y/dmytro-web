@@ -336,3 +336,19 @@ img{max-width:100%}
   .brand-logo{width:48px;height:48px;flex-basis:48px}
   .contact-logo{width:66px;height:66px;top:0}
 }
+
+/* SEO content */
+.seo-section .heading-note{max-width:520px}
+.seo-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);margin-top:44px}
+.seo-card{background:rgba(7,11,16,.78);padding:30px;min-height:230px;position:relative}
+.seo-card>span{font:600 11px/1 var(--mono,monospace);color:var(--muted)}
+.seo-card h3{font-size:25px;line-height:1.05;margin:55px 0 15px}
+.seo-card p{color:var(--muted);font-size:13px;line-height:1.7;max-width:34ch}
+.faq-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:34px}
+.faq-item{border:1px solid var(--line);background:rgba(7,11,16,.58);padding:0 22px}
+.faq-item summary{cursor:pointer;list-style:none;padding:22px 0;font-size:16px;font-weight:700;display:flex;justify-content:space-between;gap:20px}
+.faq-item summary::-webkit-details-marker{display:none}
+.faq-item summary::after{content:'+';font-size:22px;color:var(--accent);font-weight:400}
+.faq-item[open] summary::after{content:'−'}
+.faq-item p{color:var(--muted);font-size:13px;line-height:1.7;padding:0 0 22px;max-width:60ch}
+@media(max-width:820px){.seo-grid,.faq-grid{grid-template-columns:1fr}}
