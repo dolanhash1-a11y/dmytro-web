@@ -3,10 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="DMYTRO WEB STUDIO — сучасні сайти для бізнесу: дизайн, розробка, онлайн-запис, CRM та автоматизація.">
-  <meta name="theme-color" content="#030911">
+  <meta name="description" content="DMYTRO WEB STUDIO — сучасні сайти для бізнесу. Дизайн, розробка, онлайн-запис, CRM та автоматизація.">
+  <meta name="theme-color" content="#03080e">
   <meta property="og:title" content="DMYTRO WEB STUDIO — сучасні сайти для бізнесу">
-  <meta property="og:description" content="Дизайн, розробка, онлайн-запис, адмін-панелі та автоматизація.">
+  <meta property="og:description" content="Дизайн, розробка, онлайн-запис, CRM та автоматизація для бізнесу.">
   <meta property="og:type" content="website">
   <title>DMYTRO WEB STUDIO — сучасні сайти для бізнесу</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,211 +15,125 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="page-noise"></div>
-  <div class="bg-orb orb-blue"></div>
-  <div class="bg-orb orb-soft"></div>
-
-  <header class="site-header">
-    <a class="brand" href="#top" aria-label="DMYTRO WEB STUDIO">
-      <img class="brand-logo" src="assets/logo-user.jpg" alt="DMYTRO WEB STUDIO">
-    </a>
-    <nav class="nav" aria-label="Основна навігація">
+  <header class="header">
+    <a class="brand" href="#top" aria-label="DMYTRO WEB STUDIO"><img src="assets/dmytro-logo.webp" alt="DMYTRO WEB STUDIO"></a>
+    <nav id="nav" class="nav">
       <a class="active" href="#top">Головна</a>
       <a href="#services">Послуги</a>
-      <a href="#projects">Портфоліо</a>
+      <a href="#portfolio">Портфоліо</a>
       <a href="#about">Про мене</a>
       <a href="#contact">Контакти</a>
     </nav>
-    <a class="header-cta" href="#contact"><span class="telegram-dot">↗</span> Обговорити проєкт</a>
-    <button class="menu-btn" id="menu-btn" aria-label="Відкрити меню" aria-expanded="false">☰</button>
+    <a class="header-cta" href="#contact"><span>↗</span> Обговорити проєкт</a>
+    <button class="menu" id="menu" aria-label="Меню" aria-expanded="false">☰</button>
   </header>
 
   <main id="top">
     <section class="hero">
-      <div class="hero-content">
-        <div class="hero-badge"><i></i> ВІДКРИТИЙ ДО НОВИХ ПРОЄКТІВ</div>
+      <div class="hero-left">
+        <div class="availability"><i></i> ВІДКРИТИЙ ДО НОВИХ ПРОЄКТІВ</div>
         <p class="eyebrow">DMYTRO WEB STUDIO · UKRAINE</p>
+        <img class="hero-logo" src="assets/dmytro-logo.webp" alt="DMYTRO WEB STUDIO">
         <h1>Сучасні сайти<br>для вашого <span>бізнесу.</span></h1>
         <p class="hero-lead">Дизайн, розробка та автоматизація, які допомагають бізнесу виглядати професійно та працювати зручніше.</p>
 
-        <div class="service-inline">
-          <div><span class="icon">◫</span><b>Сайти<br>під ключ</b></div>
-          <div><span class="icon">◷</span><b>Онлайн-<br>запис</b></div>
-          <div><span class="icon">▥</span><b>CRM<br>та інтеграції</b></div>
-          <div><span class="icon">▯</span><b>Адаптивний<br>дизайн</b></div>
-          <div><span class="icon">◉</span><b>Підтримка<br>та розвиток</b></div>
+        <div class="service-row">
+          <div><span class="ico">▣</span><b>Сайти<br>під ключ</b></div>
+          <div><span class="ico">◷</span><b>Онлайн-<br>запис</b></div>
+          <div><span class="ico">▥</span><b>CRM<br>та інтеграції</b></div>
+          <div><span class="ico">▯</span><b>Адаптивний<br>дизайн</b></div>
+          <div><span class="ico">◉</span><b>Підтримка<br>та розвиток</b></div>
         </div>
 
         <div class="hero-actions">
-          <a class="btn btn-primary" href="#contact">Обговорити проєкт <span>↗</span></a>
-          <a class="btn btn-outline" href="#projects">Переглянути портфоліо <span>›</span></a>
+          <a class="btn primary" href="#contact">Обговорити проєкт <span>↗</span></a>
+          <a class="btn ghost" href="#portfolio">Переглянути портфоліо <span>›</span></a>
         </div>
 
-        <div class="hero-signature">
-          <span>Ваші ідеї —</span>
-          <strong>мої рішення</strong>
-        </div>
+        <div class="signature">Ваші ідеї — <strong>мої рішення</strong></div>
       </div>
 
-      <div class="hero-stage" aria-label="Приклад вебпроєкту Royal Pet">
-        <div class="stage-halo"></div>
-        <div class="stage-brand">
-          <b>ROYAL PET</b>
-          <span>CASE STUDY · LIVE</span>
+      <div class="hero-right">
+        <div class="ring ring-a"></div>
+        <div class="ring ring-b"></div>
+        <div class="scene-note"><b>ROYAL PET</b><span>CASE STUDY · LIVE</span></div>
+
+        <div class="desk">
+          <div class="plant"><i></i><i></i><i></i><i></i><i></i></div>
+          <div class="wall-sign">WEBSITES<br>THAT<br>WORK<span></span></div>
         </div>
 
         <div class="laptop">
-          <div class="laptop-top">
-            <span class="cam"></span>
-            <div class="screen-ui">
-              <div class="screen-nav">
-                <span>Головна</span><span>Послуги</span><span>Портфоліо</span><span>Відгуки</span><span>Контакти</span>
-              </div>
-              <div class="screen-main">
-                <div class="screen-copy">
-                  <div class="rp-mark">RP</div>
-                  <p class="screen-kicker">ROYAL PET</p>
-                  <h2>Професійний грумінг<br><em>для собак та котиків</em></h2>
-                  <div class="screen-btn">Записатися</div>
-                </div>
-                <div class="pet-visual">
-                  <div class="pet-dog-shape"><i></i><b></b></div>
-                  <div class="pet-cat-shape"></div>
-                </div>
-              </div>
+          <div class="screen">
+            <div class="screen-nav"><span>Головна</span><span>Послуги</span><span>Портфоліо</span><span>Відгуки</span><span>Контакти</span></div>
+            <div class="screen-inner">
+              <div class="royal-title"><small>ROYAL PET</small><h2>Професійний грумінг<br><em>для собак та котиків</em></h2><button>Записатися</button></div>
+              <div class="pet-dog"></div><div class="pet-cat"></div>
             </div>
           </div>
-          <div class="laptop-base"></div>
+          <div class="keyboard"></div><div class="base"></div>
         </div>
 
         <div class="phone">
-          <div class="phone-camera"></div>
-          <div class="phone-head"><b>Royal Pet</b><span>⌁</span></div>
-          <small>Оберіть зручний час</small>
-          <div class="phone-date">19 вересня <span>⌄</span></div>
+          <div class="phone-top"></div>
+          <b>Royal Pet</b><small>Оберіть дату</small><div class="date">19 вересня <span>⌄</span></div>
           <small>Доступні години</small>
-          <div class="phone-slots"><i>09:00</i><i>10:30</i><i>12:32</i><i>14:17</i><i>16:45</i><i>18:30</i></div>
-          <div class="phone-btn">Записатися</div>
+          <div class="slots"><i>09:00</i><i>10:30</i><i>12:32</i><i>14:17</i><i>16:45</i><i>18:30</i></div>
+          <button>Записатися</button>
         </div>
 
-        <div class="stage-tag tag-booking">ONLINE BOOKING</div>
-        <div class="stage-tag tag-admin">ADMIN PANEL</div>
-        <div class="stage-tag tag-responsive">RESPONSIVE</div>
+        <div class="chip chip-a">ONLINE BOOKING</div>
+        <div class="chip chip-b">ADMIN PANEL</div>
+        <div class="chip chip-c">RESPONSIVE</div>
       </div>
 
       <div class="hero-bottom">
-        <div class="hero-mini">
-          <span>01</span><b>ДИЗАЙН</b>
-        </div>
-        <div class="hero-mini">
-          <span>02</span><b>РОЗРОБКА</b>
-        </div>
-        <div class="hero-mini">
-          <span>03</span><b>ЗАПУСК</b>
-        </div>
-        <div class="hero-claim">Сайт, який<br><strong>працює на бізнес.</strong></div>
-        <div class="footer-brand">CREATE <i>•</i> DEVELOP <i>•</i> GROW <span>🇺🇦</span></div>
+        <div><span>01</span><b>ДИЗАЙН</b></div><div><span>02</span><b>РОЗРОБКА</b></div><div><span>03</span><b>ЗАПУСК</b></div>
+        <p>Сайт, який <strong>працює на бізнес.</strong></p>
+        <small>CREATE <i>•</i> DEVELOP <i>•</i> GROW · 🇺🇦</small>
       </div>
     </section>
 
-    <section class="section intro-strip">
+    <section class="section intro">
       <div><span>01</span><b>Не просто сайт.</b><p>Продумую структуру, візуал і шлях користувача.</p></div>
       <div><span>02</span><b>Не просто дизайн.</b><p>Додаю функції, які вирішують задачі бізнесу.</p></div>
       <div><span>03</span><b>Не просто запуск.</b><p>Залишаю основу для подальшого розвитку.</p></div>
     </section>
 
-    <section id="about" class="section about-modern">
-      <div class="about-visual">
-        <div class="about-logo-frame"><img src="assets/logo-user.jpg" alt="DMYTRO WEB STUDIO"></div>
-        <div class="about-caption">WEB DESIGN · DEVELOPMENT · AUTOMATION</div>
-      </div>
-      <div class="about-copy-modern">
-        <p class="eyebrow">ПРО МЕНЕ</p>
-        <h2>Я створюю не шаблон.<br><span>Я створюю рішення.</span></h2>
-        <p>Мета кожного проєкту — поєднати сильний візуал із реальною користю для бізнесу. Тому я думаю не тільки про те, як сайт виглядає, а й про те, як людина ним користується та як власник ним керує.</p>
-        <div class="about-tags"><span>UI / UX</span><span>Frontend</span><span>Booking</span><span>CRM</span><span>Automation</span></div>
-      </div>
+    <section id="about" class="section two-col">
+      <div class="brand-card"><img src="assets/dmytro-logo.webp" alt="DMYTRO WEB STUDIO"><span>WEB DESIGN · DEVELOPMENT · AUTOMATION</span></div>
+      <div><p class="eyebrow">ПРО МЕНЕ</p><h2>Я створюю не шаблон.<br><span>Я створюю рішення.</span></h2><p class="copy">Поєдную сильну візуальну подачу з логікою та функціональністю. Моя задача — щоб сайт був зрозумілим клієнту і зручним для власника бізнесу.</p><div class="tags"><span>UI / UX</span><span>Frontend</span><span>Booking</span><span>CRM</span><span>Automation</span></div></div>
     </section>
 
     <section id="services" class="section">
-      <div class="section-head-modern">
-        <div><p class="eyebrow">ПОСЛУГИ</p><h2>Від ідеї<br>до готового продукту.</h2></div>
-        <p>Підбираю рішення під завдання бізнесу — від односторінкового сайту до системи з онлайн-записом та адмін-панеллю.</p>
-      </div>
-      <div class="service-grid-modern">
+      <div class="section-head"><div><p class="eyebrow">ПОСЛУГИ</p><h2>Від ідеї<br>до готового продукту.</h2></div><p>Підбираю рішення під реальні задачі бізнесу — від презентаційного сайту до системи з онлайн-записом та адмін-панеллю.</p></div>
+      <div class="cards">
         <article><span>01</span><h3>Сайти для бізнесу</h3><p>Структура, дизайн, адаптивність і сильна презентація послуг.</p><b>LANDING · CORPORATE · PORTFOLIO</b></article>
         <article><span>02</span><h3>Онлайн-запис</h3><p>Дата, послуга, точні доступні години та заявки.</p><b>BOOKING · CALENDAR</b></article>
-        <article><span>03</span><h3>Адмін-панель</h3><p>Керування записами, контентом, послугами, відгуками та клієнтами.</p><b>DASHBOARD · CRM</b></article>
+        <article><span>03</span><h3>Адмін-панелі</h3><p>Записи, контент, послуги, відгуки та клієнти в одному місці.</p><b>DASHBOARD · CRM</b></article>
         <article><span>04</span><h3>Автоматизація</h3><p>API, база даних, інтеграції та бізнес-логіка.</p><b>API · D1 · CLOUDFLARE</b></article>
         <article><span>05</span><h3>Адаптивний дизайн</h3><p>Єдиний досвід на телефоні, планшеті та комп'ютері.</p><b>MOBILE · TABLET · DESKTOP</b></article>
-        <article><span>06</span><h3>Підтримка</h3><p>Розвиток проєкту після запуску та додавання нових функцій.</p><b>UPDATES · GROWTH</b></article>
+        <article><span>06</span><h3>Підтримка</h3><p>Розвиток проєкту після запуску та нові функції.</p><b>UPDATES · GROWTH</b></article>
       </div>
     </section>
 
-    <section id="projects" class="section portfolio-modern">
-      <div class="section-head-modern">
-        <div><p class="eyebrow">ПОРТФОЛІО</p><h2>Royal Pet<br><span>Case Study.</span></h2></div>
-        <a class="text-link" href="https://royalpet.online" target="_blank" rel="noopener">Відкрити live-сайт ↗</a>
+    <section id="portfolio" class="section portfolio">
+      <div class="section-head"><div><p class="eyebrow">ПОРТФОЛІО</p><h2>Royal Pet<br><span>Case Study.</span></h2></div><a class="text-link" href="https://royalpet.online" target="_blank" rel="noopener">Відкрити live-сайт ↗</a></div>
+      <div class="case">
+        <div class="case-copy"><small>CASE 01 · 2026</small><h3>Royal Pet</h3><p>Повноцінний сайт грумінг-студії з послугами, портфоліо, відгуками, онлайн-записом і власною адмін-панеллю.</p><div class="pills"><span>WEB DESIGN</span><span>BOOKING</span><span>CRM</span><span>CLOUDFLARE</span></div><a class="btn primary" href="https://royalpet.online" target="_blank" rel="noopener">Відкрити проєкт ↗</a></div>
+        <div class="case-screen"><div class="browser"><i></i><i></i><i></i><span>royalpet.online</span><em>LIVE</em></div><div class="case-screen-inner"><b>Royal Pet</b><strong>Професійний грумінг<br>для собак та котиків</strong><button>Записатися</button></div></div>
       </div>
-      <div class="portfolio-hero-card">
-        <div class="portfolio-info">
-          <span class="case-number">CASE 01 · 2026</span>
-          <h3>Royal Pet</h3>
-          <p>Повноцінний сайт грумінг-студії з послугами, портфоліо, відгуками, онлайн-записом і власною адмін-панеллю.</p>
-          <div class="project-pills"><span>WEB DESIGN</span><span>BOOKING</span><span>CRM</span><span>CLOUDFLARE</span></div>
-          <a class="btn btn-primary" href="https://royalpet.online" target="_blank" rel="noopener">Відкрити проєкт ↗</a>
-        </div>
-        <div class="portfolio-device">
-          <div class="mock-browser"><i></i><i></i><i></i><span>royalpet.online</span><em>LIVE</em></div>
-          <div class="mock-screen">
-            <div class="mock-topline">Royal Pet · Головна · Послуги · Портфоліо · Відгуки</div>
-            <div class="mock-center">
-              <b>Royal Pet</b>
-              <h4>Професійний грумінг<br>для собак та котиків</h4>
-              <span>Записатися</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="case-grid-modern">
-        <a href="https://royalpet.online/" target="_blank" rel="noopener"><small>01 · Головна</small><strong>Живий сайт</strong><span>Відкрити ↗</span></a>
-        <a href="https://royalpet.online/booking/" target="_blank" rel="noopener"><small>02 · Онлайн-запис</small><strong>Запис клієнта</strong><span>Відкрити ↗</span></a>
-        <div><small>03 · Кабінет</small><strong>Управління бізнесом</strong><span>Авторизований доступ</span></div>
-      </div>
+      <div class="case-grid"><a href="https://royalpet.online" target="_blank" rel="noopener"><small>01 · Головна</small><strong>Живий сайт</strong><span>Відкрити ↗</span></a><a href="https://royalpet.online/booking/" target="_blank" rel="noopener"><small>02 · Онлайн-запис</small><strong>Запис клієнта</strong><span>Відкрити ↗</span></a><div><small>03 · Кабінет</small><strong>Управління бізнесом</strong><span>Авторизований доступ</span></div></div>
     </section>
 
-    <section id="process" class="section process-modern">
-      <div class="section-head-modern">
-        <div><p class="eyebrow">ЯК ПРАЦЮЮ</p><h2>Чітко.<br>Поетапно.</h2></div>
-      </div>
-      <div class="steps-modern">
-        <div><span>01</span><h3>Задача</h3><p>Розбираємо бізнес, цілі, аудиторію та потрібні функції.</p></div>
-        <div><span>02</span><h3>Дизайн</h3><p>Створюю структуру, візуальний напрям і ключові екрани.</p></div>
-        <div><span>03</span><h3>Розробка</h3><p>Перетворюю дизайн на швидкий адаптивний сайт.</p></div>
-        <div><span>04</span><h3>Запуск</h3><p>Тестування, підключення сервісів і передача готового продукту.</p></div>
-      </div>
+    <section id="process" class="section">
+      <div class="section-head"><div><p class="eyebrow">ЯК ПРАЦЮЮ</p><h2>Чітко.<br>Поетапно.</h2></div></div>
+      <div class="steps"><div><span>01</span><h3>Задача</h3><p>Розбираємо бізнес, цілі та потрібні функції.</p></div><div><span>02</span><h3>Дизайн</h3><p>Створюю структуру, візуальний напрям і ключові екрани.</p></div><div><span>03</span><h3>Розробка</h3><p>Перетворюю дизайн на адаптивний сайт.</p></div><div><span>04</span><h3>Запуск</h3><p>Тестування, підключення сервісів і передача готового продукту.</p></div></div>
     </section>
 
-    <section id="contact" class="section contact-modern">
-      <div class="contact-box">
-        <div>
-          <p class="eyebrow">ГОТОВІ ПОГОВОРИТИ?</p>
-          <h2>Розкажи про свою<br><span>ідею.</span></h2>
-          <p>Опиши бізнес і те, що має робити майбутній сайт. Підберемо структуру та формат реалізації.</p>
-        </div>
-        <div class="contact-actions">
-          <a class="btn btn-primary" href="https://instagram.com/dmytro.web" target="_blank" rel="noopener">Instagram ↗</a>
-          <a class="btn btn-outline" href="https://t.me/dmytro_web" target="_blank" rel="noopener">Telegram ↗</a>
-        </div>
-      </div>
-    </section>
+    <section id="contact" class="section contact"><div><p class="eyebrow">ГОТОВІ ПОГОВОРИТИ?</p><h2>Розкажи про свою<br><span>ідею.</span></h2><p>Опиши бізнес і те, що має робити майбутній сайт.</p><div class="contact-actions"><a class="btn primary" href="https://instagram.com/dmytro.web" target="_blank" rel="noopener">Instagram ↗</a><a class="btn ghost" href="https://t.me/dmytro_web" target="_blank" rel="noopener">Telegram ↗</a></div></div></section>
   </main>
-
-  <footer class="site-footer">
-    <div><b>DMYTRO WEB STUDIO</b><span>Сайти, які працюють на бізнес.</span></div>
-    <small>© 2026 Dmytro Web · Ukraine</small>
-  </footer>
-
+  <footer class="footer"><b>DMYTRO WEB STUDIO</b><span>CREATE · DEVELOP · GROW · 🇺🇦</span><small>© 2026</small></footer>
   <script src="script.js"></script>
 </body>
 </html>
