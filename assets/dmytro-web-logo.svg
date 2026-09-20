@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 250" role="img" aria-labelledby="t d">
+  <title id="t">DMYTRO WEB STUDIO</title>
+  <desc id="d">Metallic DW monogram with electric blue accent and DMYTRO WEB STUDIO wordmark</desc>
+  <defs>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset=".28" stop-color="#a8b0b8"/>
+      <stop offset=".5" stop-color="#f5f7fa"/>
+      <stop offset=".78" stop-color="#77818a"/>
+      <stop offset="1" stop-color="#dfe5ea"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8fd6ff"/>
+      <stop offset=".35" stop-color="#168dff"/>
+      <stop offset=".75" stop-color="#0065c7"/>
+      <stop offset="1" stop-color="#bce7ff"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect x="2" y="2" width="836" height="246" rx="123" fill="#050b12" stroke="#102235" stroke-width="2"/>
+
+  <g transform="translate(28 22)">
+    <circle cx="104" cy="103" r="92" fill="#02070c" stroke="url(#blue)" stroke-width="5" filter="url(#glow)"/>
+    <circle cx="104" cy="103" r="82" fill="none" stroke="#8ed2ff" stroke-opacity=".18"/>
+
+    <path d="M50 53h46c31 0 47 18 47 47 0 37-23 62-57 62H50v-14h13V67H50V53zm31 14v81h11c23 0 37-17 37-48 0-22-11-33-33-33H81z" fill="url(#silver)"/>
+    <path d="M109 59h24l-43 115H66l43-115z" fill="url(#blue)"/>
+    <path d="M126 67c21 0 36 16 36 37 0 26-16 49-43 49-14 0-26-6-34-17l9-19c6 7 13 11 23 11 13 0 23-12 23-27 0-11-6-19-17-19z" fill="url(#silver)"/>
+  </g>
+
+  <g transform="translate(250 58)">
+    <text x="0" y="48" font-family="Arial,Helvetica,sans-serif" font-size="46" font-weight="800" letter-spacing="7" fill="#f2f7fb">DMYTRO <tspan fill="url(#blue)">WEB</tspan></text>
+    <text x="2" y="85" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="500" letter-spacing="10" fill="#aebbc7">S T U D I O</text>
+    <line x1="2" y1="106" x2="502" y2="106" stroke="#1a7ed0" stroke-opacity=".45"/>
+    <text x="3" y="134" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="500" letter-spacing="5" fill="#6f8aa4">WEBSITES THAT WORK • REAL RESULTS</text>
+  </g>
+</svg>
