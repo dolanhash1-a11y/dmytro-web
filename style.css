@@ -494,3 +494,63 @@
   .ref-phone{right:3%;top:700px}
   .ref-lower{bottom:15px}
 }
+
+/* Original reference image as the hero asset */
+.exact-reference-hero{
+  position:relative;
+  width:100%;
+  max-width:none;
+  height:min(66.6667vw,100vh);
+  min-height:600px;
+  overflow:hidden;
+  padding:0;
+  background:#02070b;
+}
+.exact-reference-image{
+  position:absolute;
+  inset:0;
+  width:100%;
+  height:100%;
+  display:block;
+  object-fit:cover;
+  object-position:center;
+}
+.ref-hotspot{
+  position:absolute;
+  z-index:20;
+  display:block;
+  background:transparent;
+  border:0;
+  outline:0;
+  cursor:pointer;
+}
+.ref-hotspot-main{
+  left:4.8%;
+  top:71.1%;
+  width:19%;
+  height:6.7%;
+}
+.ref-hotspot-portfolio{
+  left:27.1%;
+  top:71.1%;
+  width:19.5%;
+  height:6.7%;
+}
+.header{
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  z-index:40;
+  opacity:0;
+  pointer-events:auto;
+}
+@media(max-width:780px){
+  .exact-reference-hero{height:auto;min-height:0;aspect-ratio:3/2}
+  .ref-hotspot-main{left:5%;top:70%;width:40%;height:8%}
+  .ref-hotspot-portfolio{left:51%;top:70%;width:40%;height:8%}
+}
+@media(max-width:560px){
+  .exact-reference-hero{aspect-ratio:3/2}
+  .header{height:70px}
+}
