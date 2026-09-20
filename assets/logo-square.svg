@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 475 470" role="img" aria-labelledby="title desc">
+<title id="title">DMYTRO WEB STUDIO</title><desc id="desc">DW metallic emblem in a luminous blue ring</desc>
+<defs>
+ <radialGradient id="bg" cx="45%" cy="28%" r="75%"><stop offset="0" stop-color="#142a3b"/><stop offset=".55" stop-color="#07121d"/><stop offset="1" stop-color="#02070c"/></radialGradient>
+ <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#d9f1ff"/><stop offset=".28" stop-color="#5db9ff"/><stop offset=".55" stop-color="#087ef0"/><stop offset=".78" stop-color="#8ed2ff"/><stop offset="1" stop-color="#164d92"/></linearGradient>
+ <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff"/><stop offset=".28" stop-color="#cfd5dc"/><stop offset=".55" stop-color="#2d9dff"/><stop offset=".78" stop-color="#eef3f7"/><stop offset="1" stop-color="#7e8a96"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="4.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="475" height="470" rx="34" fill="url(#bg)"/>
+<circle cx="237.5" cy="205" r="190" fill="#02070c" stroke="url(#ring)" stroke-width="5" filter="url(#glow)"/>
+<circle cx="237.5" cy="205" r="178" fill="none" stroke="#b8e2ff" stroke-opacity=".12"/>
+<path d="M134 126h93c48 0 73 25 73 64 0 50-32 88-86 88h-80v-18h18V145h-18v-19zm55 19v115h25c34 0 56-24 56-67 0-31-17-48-50-48h-31z" fill="url(#metal)"/>
+<path d="M268 132h27l-62 163h-27l62-163z" fill="url(#ring)"/>
+<path d="M286 142c30 0 51 23 51 52 0 35-22 67-59 67-20 0-35-8-44-24l12-24c8 10 18 15 31 15 19 0 31-17 31-37 0-15-8-25-22-25z" fill="url(#metal)"/>
+<text x="237.5" y="332" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="29" font-weight="500" letter-spacing="6" fill="#eef4fa">DMYTRO WEB</text>
+<text x="237.5" y="361" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="500" letter-spacing="9" fill="#aebac7">S T U D I O</text>
+<text x="237.5" y="394" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="8.5" letter-spacing="4.4" fill="#89a1b8">IDEAS • WEBSITES • REAL RESULTS</text>
+<path d="M79 106 L94 89 L116 78 L100 105 L116 118 L93 111 Z" fill="#f0fbff" opacity=".9" filter="url(#glow)"/>
+</svg>
