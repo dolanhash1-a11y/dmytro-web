@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dolanhash1-a11y.github.io/dmytro-web/sitemap.xml
