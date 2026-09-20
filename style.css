@@ -14,7 +14,7 @@ button{font:inherit}
 .glow-a{width:320px;height:320px;background:#1169dd;top:25%;right:-120px}
 .glow-b{width:240px;height:240px;background:#7d9dbf;bottom:10%;left:-120px}
 .site-header{position:sticky;top:0;z-index:20;height:80px;display:flex;align-items:center;justify-content:space-between;padding:0 5vw;border-bottom:1px solid rgba(255,255,255,.05);background:rgba(5,10,16,.75);backdrop-filter:blur(16px)}
-.brand{display:flex;align-items:center;gap:12px}.brand-mark{width:42px;height:42px;display:grid;place-items:center;border:1px solid rgba(110,172,255,.65);border-radius:50%;font-weight:800;letter-spacing:-.04em;background:radial-gradient(circle at 35% 30%,#244f7e,#07111c 68%)}
+.brand{display:flex;align-items:center;gap:12px}.brand-logo{width:170px;height:auto;display:block}.brand-mark{width:42px;height:42px;display:grid;place-items:center;border:1px solid rgba(110,172,255,.65);border-radius:50%;font-weight:800;letter-spacing:-.04em;background:radial-gradient(circle at 35% 30%,#244f7e,#07111c 68%)}
 .brand-text{display:flex;flex-direction:column;line-height:1}.brand-text b{font-size:13px;letter-spacing:.16em}.brand-text small{font-size:9px;letter-spacing:.22em;color:#8292a4;margin-top:5px}
 .nav{display:flex;gap:28px;color:#9ca9b7;font-size:13px}.nav a:hover{color:#fff}.nav-cta,.btn,.contact-button{display:inline-flex;align-items:center;justify-content:center;gap:10px;border-radius:999px;transition:.25s}.nav-cta{padding:11px 17px;border:1px solid var(--line);font-size:12px}.nav-cta:hover{border-color:rgba(80,150,255,.5);background:rgba(35,103,198,.09)}
 .menu-btn{display:none;background:none;border:0;color:#fff;font-size:25px}
